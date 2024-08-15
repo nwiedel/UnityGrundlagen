@@ -335,8 +335,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620781475}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.031199979, y: 0.96398944, z: -0.13123956, w: -0.22918789}
-  m_LocalPosition: {x: 4.042004, y: 3.594094, z: 10.475514}
+  m_LocalRotation: {x: 0.013014363, y: 0.9869247, z: -0.11931203, w: 0.107586935}
+  m_LocalPosition: {x: -2.134429, y: 2.317662, z: 10.407432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -415,26 +415,6 @@ PrefabInstance:
     - target: {fileID: 1959867713932940, guid: cfe765db2e0e7684e80c81aebf26f841, type: 3}
       propertyPath: m_Name
       value: Garage
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198485943848456, guid: cfe765db2e0e7684e80c81aebf26f841, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198485943848456, guid: cfe765db2e0e7684e80c81aebf26f841, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198485943848456, guid: cfe765db2e0e7684e80c81aebf26f841, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.86602545
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198485943848456, guid: cfe765db2e0e7684e80c81aebf26f841, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4198485943848456, guid: cfe765db2e0e7684e80c81aebf26f841, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 4870804283382702, guid: cfe765db2e0e7684e80c81aebf26f841, type: 3}
       propertyPath: m_LocalPosition.x

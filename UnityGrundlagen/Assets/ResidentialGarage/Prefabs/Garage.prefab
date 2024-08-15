@@ -2121,7 +2121,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4870804283382702}
-  - component: {fileID: 612488819821104557}
   m_Layer: 0
   m_Name: Garage
   m_TagString: Untagged
@@ -2168,28 +2167,6 @@ Transform:
   - {fileID: 4269618055900946}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &612488819821104557
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959867713932940}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 88689d1eb3bdec7449da90c5d83f347f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1965291663252760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2202,6 +2179,7 @@ GameObject:
   - component: {fileID: 33953258168234050}
   - component: {fileID: 23474242195037994}
   - component: {fileID: 65843083342624244}
+  - component: {fileID: 1124034541259636657}
   m_Layer: 0
   m_Name: Door_Large_02
   m_TagString: Untagged
@@ -2217,13 +2195,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965291663252760}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.86602545, z: 0, w: 0.49999994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.9179182, y: 1.4515105, z: 3.9344347}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4870804283382702}
-  m_LocalEulerAnglesHint: {x: 0, y: 120, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33953258168234050
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2295,6 +2273,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.1551132, y: 2.6607418, z: 0.16210793}
   m_Center: {x: -1.0975451, y: 0.00000017881393, z: -0.05940535}
+--- !u!95 &1124034541259636657
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965291663252760}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3e6499463bd3ad3499474437522abb87, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1987614912372384
 GameObject:
   m_ObjectHideFlags: 0
